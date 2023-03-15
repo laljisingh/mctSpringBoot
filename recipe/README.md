@@ -3,9 +3,9 @@
 This project are very helpful for like Food company They are post the our recipe and provide the details for how to make a good Food in our home
 ## Project Links
 
-[GitHub Links](https://github.com/laljisingh/allCodeOfSpringboot/tree/main/recipe)
+[GitHub Links](https://github.com/laljisingh/mctSpringBoot/tree/main/recipe)
 
-[Live Project Links](http://3.143.239.143:8080/swagger-ui.html)
+[Live Project Links](http://3.144.42.47:8080/swagger-ui.html#/)
 
 - ### Frameworks and language used 
 - 1. SpringBoot Framework
