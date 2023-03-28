@@ -7,7 +7,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -15,10 +14,16 @@ public class UserController {
     @Autowired
     UserService userService;
 
+
+
+
+
+
     @PostMapping("/add-user")
-    public ResponseEntity<String> addUser(@Valid @RequestBody User newUser){
+    public ResponseEntity<String> addUser(@RequestBody User newUser){
+
         User user = userService.addUser(newUser);
-        return new ResponseEntity<>("User saved with id:-"+user.getUser_id(), HttpStatus.CREATED);
+        return new ResponseEntity<>("User saved with id:-", HttpStatus.CREATED);
     }
     @GetMapping("/get-all-user")
     public ResponseEntity<List<User>> getAllUser(){
