@@ -7,6 +7,8 @@ This project are very helpful for like Food company They are post the our recipe
 
 [Live Project Links](http://3.144.42.47:8080/swagger-ui.html#/)
 
+![Logo](https://github.com/laljisingh/mctSpringBoot/blob/main/recipe/allCodes.png)
+
 - ### Frameworks and language used 
 - 1. SpringBoot Framework
 - 2. Java Programming Language
